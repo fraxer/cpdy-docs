@@ -14,7 +14,7 @@ hero:
       link: https://github.com/fraxer/server
     - theme: alt
       text: Примеры
-      link: /examples
+      link: /examples-req-res
 
 features:
   - title: Простой

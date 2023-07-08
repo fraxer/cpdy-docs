@@ -35,5 +35,31 @@ cmake -DCMAKE_BUILD_TYPE:STRING=Debug -DINCLUDE_REDIS=yes ..;
 cmake -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc-12 ..;
 ```
 
+## Обработчики
 
+Обработчики находятся в директории `handlers`.
 
+```
+handlers/
+    CMakeLists.txt
+    indexpage.c
+    wsindexpage.c
+```
+
+## Сборка
+
+Скомпилированные файлы расположены в директории `build/exec`.
+
+```
+handlers/
+    libindexpage.so
+    libwsindexpage.so
+    ...
+migrations/
+    s1/
+        lib2023-04-04_17-55-00_create_users_table.so
+        ...
+    ...
+cpdy
+migrate
+```

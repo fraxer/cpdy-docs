@@ -24,8 +24,11 @@ outline: deep
         "/admin/users": {
             "GET": ["/var/www/server/build/exec/handlers/libindexpage.so", "users_list"],
         },
-        "/admin/users/{id|(\\d+)}": {
+        "/admin/users/{id|\\d+}": {
             "PATCH": ["/var/www/server/build/exec/handlers/libindexpage.so", "users_update"]
+        },
+        "^/managers/{name|[a-z]+}$": {
+            "PATCH": ["/var/www/server/build/exec/handlers/libindexpage.so", "managers_update"]
         },
         "/wss": {
             "GET": ["/var/www/server/build/exec/handlers/libindexpage.so", "websocket"]
@@ -46,12 +49,10 @@ outline: deep
 ...
 ```
 
-Путь до ресурса может быть указан точным значением `/admin/users` или псевдо-регулярным выражением `/admin/users/{id|(\\d+)}`.
+Путь до ресурса может быть указан точным значением `/admin/users` или псевдо-регулярным выражением `/admin/users/{id|\\d+}`.
 
 Шаблонные параметры можно извлечь с помощью метода `query`, например:
 
 ```C
 const char* id = request->query(request, "id");
 ```
-
-> Обязательно указывайте значение параметра шаблона в круглых скобках. Например `/users/{id|(\\d+)}`. Вариант `/users/{id|\\d+}` без круглых скобок будет некорректным. В таком случае параметру `id` присвоится весь путь (uri).

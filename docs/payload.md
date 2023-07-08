@@ -90,7 +90,7 @@ void post(http1request_t* request, http1response_t* response) {
         return;
     }
 
-    if (!payloadfile.save(&payloadfile)) {
+    if (!payloadfile.save(&payloadfile, "files", "file.txt")) {
         response->data(response, "Error save file");
         return;
     }
@@ -124,7 +124,8 @@ void post(http1request_t* request, http1response_t* response) {
         return;
     }
 
-    if (!payloadfile.save(&payloadfile)) {
+    const char* filenameFromPayload = NULL;
+    if (!payloadfile.save(&payloadfile, "files", filenameFromPayload)) {
         response->data(response, "Error save file");
         return;
     }

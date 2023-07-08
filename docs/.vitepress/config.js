@@ -16,7 +16,7 @@ export default defineConfig({
         nav: [
           { text: 'Главная', link: '/' },
           { text: 'Документация', link: '/introduction' },
-          { text: 'Примеры', link: '/examples' },
+          { text: 'Примеры', link: '/examples-req-res' },
         ],
 
         darkModeSwitchLabel: 'Тема',
@@ -69,6 +69,7 @@ export default defineConfig({
             items: [
               { text: 'Запросы и ответы', link: '/examples-req-res' },
               { text: 'Базы данных', link: '/examples-db' },
+              { text: 'Json', link: '/examples-json' },
             ]
           },
         ],

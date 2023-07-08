@@ -14,7 +14,6 @@ outline: deep
 
 <br>
 
-
 ```C
 jsondoc_t* json_init();
 ```

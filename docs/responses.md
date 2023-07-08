@@ -25,7 +25,7 @@ void get(http1request_t* request, http1response_t* response) {
 void get(http1request_t* request, http1response_t* response) {
     int error = 1;
     if (error) {
-        response->default(response, 500);
+        response->def(response, 500);
         return;
     }
 

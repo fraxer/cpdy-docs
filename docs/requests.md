@@ -30,7 +30,6 @@ void get(http1request_t* request, http1response_t* response) {
 Доступ к ним осуществляется через методы:
 
 * payloadf()
-* payload_urlencoded()
 * payload_filef()
 * payload_jsonf()
 
@@ -91,7 +90,7 @@ void get(http1request_t* request, http1response_t* response) {
 ```C
 void get(http1request_t* request, http1response_t* response) {
     if (request->uri_length > 4096) {
-        http1response_default_response(response, 414);
+        response->def(response, 414);
         return;
     }
 

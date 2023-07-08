@@ -29,7 +29,16 @@ void get(http1request_t* request, http1response_t* response) {
 
 ```C
 void get(http1request_t* request, http1response_t* response) {
-    response->header_add(response, "Set-Cookie", "token=iub&WG&W8jndal");
+    response->cookie_add(response, (cookie_t){
+        .name = "token",
+        .value = "token_value",
+        .minutes = 60,
+        .path = "/",
+        .domain = ".example.com"
+        .secure = 1,
+        .http_only = 1,
+        .same_site = "Lax"
+    });
 
     response->data(response, "Token successfully added");
 }

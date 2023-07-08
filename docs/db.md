@@ -43,6 +43,10 @@ dbinstance_t dbinst = dbinstance(request->database_list(request), "postgresql");
 Следующий пример показывает способ получения данных из базы дынных:
 
 ```C
+// handlers/indexpage.c
+#include "http1.h"
+#include "db.h"
+
 void db(http1request_t* request, http1response_t* response) {
     dbinstance_t dbinst = dbinstance(request->database_list(request), "postgresql");
 
