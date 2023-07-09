@@ -142,7 +142,7 @@ make install
 Installing openssl from the official repositories is done with the command:
 
 ```bash
-sudo apt install openssl
+sudo apt install openssl libssl-dev
 ```
 
 ## MySQL
