@@ -9,7 +9,6 @@ export default defineConfig({
       label: 'Русский',
       lang: 'ru',
       themeConfig: {
-        // logo: '/logo.svg',
         siteTitle: 'Cpdy (альфа)',
         outlineTitle: 'На этой странице',
 
@@ -93,22 +92,65 @@ export default defineConfig({
       label: 'English',
       lang: 'en',
       themeConfig: {
-        // logo: '/logo.svg',
         siteTitle: 'Cpdy (alpha)',
 
         nav: [
           { text: 'Home', link: '/en/' },
-          { text: 'Docs', link: '/en/introduction' }
+          { text: 'Docs', link: '/en/introduction' },
+          { text: 'Examples', link: '/en/examples-req-res' },
         ],
 
         sidebar: [
           {
+            items: [
+              { text: 'Intro', link: '/en/introduction' },
+              { text: 'Install', link: '/en/install' },
+              { text: 'Build and run', link: '/en/build-and-run' },
+              { text: 'Configuration file', link: '/en/config' },
+              { text: 'HTTP', collapsed: true,
+                items: [
+                  { text: 'Requests', link: '/en/requests' },
+                  { text: 'Responses', link: '/en/responses' },
+                  { text: 'Cookie', link: '/en/cookie' },
+                  { text: 'Receiving data from the client', link: '/en/payload' },
+                  { text: 'HTTP codes', link: '/en/http-codes' },
+                ]
+              },
+              { text: 'WebSockets', collapsed: true,
+                items: [
+                  { text: 'Requests', link: '/en/wsrequests' },
+                  { text: 'Responses', link: '/en/wsresponses' },
+                  { text: 'Receiving data from the client', link: '/en/wspayload' },
+                ]
+              },
+              { text: 'Databases', collapsed: true,
+                items: [
+                  { text: 'Data access', link: '/en/db' },
+                  { text: 'Migrations', link: '/en/migrations' },
+                ]
+              },
+              { text: 'Domains', link: '/en/domains' },
+              { text: 'Routes', link: '/en/routing' },
+              { text: 'Logging', link: '/en/logging' },
+              { text: 'SSL-certificates', link: '/en/ssl-certs' },
+              { text: 'Hot reload', link: '/en/hot-reload' },
+            ]
+          },
+          {
+            text: 'Libraries',
+            items: [
+              { text: 'Json', link: '/en/json' },
+              { text: 'Base64', link: '/en/base64' },
+            ]
+          },
+          {
             text: 'Examples',
             items: [
-              { text: 'Markdown Examples', link: '/markdown-examples' },
-              { text: 'Runtime API Examples', link: '/api-examples' }
+              { text: 'Requests and responses', link: '/en/examples-req-res' },
+              { text: 'Databases', link: '/en/examples-db' },
+              { text: 'Json', link: '/en/examples-json' },
             ]
-          }
+          },
         ],
 
         socialLinks: [
