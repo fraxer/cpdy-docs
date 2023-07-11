@@ -122,7 +122,8 @@ Redirects are represented as a pair `existing route`: `new route`.
 {
     ...
     "redirects": {
-        "/number/(\\d)/(\\d)": "/digit/{1}/{2}"
+        "/number/(\\d)/(\\d)": "/digit/{1}/{2}",
+        "(.*)": "https://example.com{1}"
     },
     ...
 }
