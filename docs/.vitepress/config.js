@@ -212,9 +212,8 @@ export default defineConfig({
     }
   },
   async buildEnd(siteConfig) {
-    // console.log(siteConfig)
     const sitemap = new SitemapStream({ hostname: 'https://cpdy.io/' })
-    const pages = await createContentLoader('*.md').load()
+    const pages = await createContentLoader(['*.md', 'en/*.md']).load()
     const writeStream = createWriteStream(resolve(siteConfig.outDir, 'sitemap.xml'))
 
     sitemap.pipe(writeStream)
