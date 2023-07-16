@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Database examples
 ---
 
 # Database examples

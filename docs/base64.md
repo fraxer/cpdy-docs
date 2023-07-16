@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Описание методов библиотеки base64
 ---
 
 # Библиотека base64

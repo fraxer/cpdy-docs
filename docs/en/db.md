@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Setting up a database connection, accessing a database instance and executing a sql query
 ---
 
 # Create a database connection

@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Cpdy is a high performance C framework for developing web applications on Linux.
 ---
 
 # Introduction

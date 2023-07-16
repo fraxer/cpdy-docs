@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Install dependencies such as GCC, Cmake, OpenSSL, PCRE, Zlib and more
 ---
 
 # Install dependencies

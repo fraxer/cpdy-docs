@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Перечень доступных http-кодов состояния
 ---
 
 # HTTP-коды состояния

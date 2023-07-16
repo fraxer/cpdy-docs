@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Примеры обработки запросов и ответов по протоколам Http и WebSockets
 ---
 
 # Примеры запросов

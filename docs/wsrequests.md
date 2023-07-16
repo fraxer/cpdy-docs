@@ -1,5 +1,7 @@
 ---
 outline: deep
+title: WebSockets запросы
+description: Обработка данных по протоколу WebSockets, описание формата запроса к серверу
 ---
 
 # WebSockets

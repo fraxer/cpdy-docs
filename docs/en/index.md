@@ -1,6 +1,9 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: cpdy.io - The C framework for web
+titleTemplate: cpdy
+description: Event-driven framework for web applications include websockets and databases
 
 hero:
   name: "The C framework\nfor web"

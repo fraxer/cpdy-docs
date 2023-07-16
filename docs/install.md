@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Установка таких зависимостей как GCC, Cmake, OpenSSL, PCRE, Zlib и другие
 ---
 
 # Установка зависимостей

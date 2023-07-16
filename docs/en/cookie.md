@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Setting and removing cookies
 ---
 
 # Cookie
@@ -24,8 +25,6 @@ void get(http1request_t* request, http1response_t* response) {
 ```
 
 ## Set cookie
-
-You can send a cookie to an end user by adding a `Set-Cookie` header:
 
 ```C
 void get(http1request_t* request, http1response_t* response) {

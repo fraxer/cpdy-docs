@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Reloading the application state in the process of running, without stopping the processing of requests and breaking connections using the SIGUSR1 signal
 ---
 
 # Hot reload

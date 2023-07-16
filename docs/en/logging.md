@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Cpdy provides a simple logging system. This logging system allows you to save messages of two types info and error.
 ---
 
 # Logging

@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Building a project from source code, location of handlers, project structure, application launch
 ---
 
 # Build and run

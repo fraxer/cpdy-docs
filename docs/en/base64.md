@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Description of the base64 method library
 ---
 
 # Base64 library

@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Cpdy предоставляет методы для извлечения данных из запроса при кодировании multipart/form-data и application/x-www-form-urlencoded
 ---
 
 # Получение данных от клиента

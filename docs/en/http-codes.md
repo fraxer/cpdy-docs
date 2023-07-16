@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: List of available http status codes
 ---
 
 # HTTP status codes

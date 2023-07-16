@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: An SSL certificate allows you to recognize the server and confirm the security of the site. The page describes how to connect a certificate to a site.
 ---
 
 # SSL certificates

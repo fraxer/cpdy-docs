@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Правила описания маршрутов для протоколов Http и WebSockets
 ---
 
 # Маршрутизация

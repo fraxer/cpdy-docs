@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Attaching domains to the server, adding the exact domain name or as a regular expression
 ---
 
 # Domains

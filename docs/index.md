@@ -1,6 +1,9 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: cpdy.io - Веб-фреймворк на Си
+titleTemplate: cpdy
+description: Управляемая событиями среда для веб-приложений включает websockets и базы данных.
 
 hero:
   name: "Веб-фреймворк на Си"

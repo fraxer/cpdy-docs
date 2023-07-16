@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Examples of processing requests and responses using the Http and WebSockets protocols
 ---
 
 # Request examples

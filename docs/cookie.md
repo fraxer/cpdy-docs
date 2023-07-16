@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Установка и извлечение куки
 ---
 
 # Cookie
@@ -24,8 +25,6 @@ void get(http1request_t* request, http1response_t* response) {
 ```
 
 ## Отправка cookie
-
-Отправить куку конечному пользователю можно через добавление заголовка `Set-Cookie`:
 
 ```C
 void get(http1request_t* request, http1response_t* response) {

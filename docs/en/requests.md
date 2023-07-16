@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Processing http requests, extracting cookies and request parameters, processing payloads, working with headers
 ---
 
 # Requests

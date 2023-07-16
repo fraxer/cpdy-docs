@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Forming a server response, setting a status code, adding response headers, redirects, sending a file
 ---
 
 # Responses

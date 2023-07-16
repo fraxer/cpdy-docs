@@ -1,5 +1,7 @@
 ---
 outline: deep
+title: WebSockets responses
+description: Sending a server response via the WebSockets protocol, transferring data in text or binary format, and an example of sending a file
 ---
 
 # Responses

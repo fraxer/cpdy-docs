@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Cody introduces methods for extracting data from a request when encoding multipart/form-data and application/x-www-form-urlencoded
 ---
 
 # Getting data from the client

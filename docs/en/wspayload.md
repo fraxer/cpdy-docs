@@ -1,5 +1,7 @@
 ---
 outline: deep
+title: WebSockets receiving data from the client
+description: Cody provides methods for retrieving data via WebSockets protocol as is or in json format
 ---
 
 # Getting data from the client

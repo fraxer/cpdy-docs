@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Tracking changes in the structure in the database, managing migrations
 ---
 
 # Database migrations

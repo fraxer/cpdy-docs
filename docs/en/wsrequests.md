@@ -1,5 +1,7 @@
 ---
 outline: deep
+title: WebSockets requests
+description: Data processing via the WebSockets protocol, description of the request format to the server
 ---
 
 # WebSockets

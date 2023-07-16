@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Примеры работы с форматом json
 ---
 
 # Пример работы с JSON

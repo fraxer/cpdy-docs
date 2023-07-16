@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Description of the structure of the configuration file and an example of filling
 ---
 
 # Configuration file

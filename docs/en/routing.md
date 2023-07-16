@@ -1,5 +1,6 @@
 ---
 outline: deep
+description: Route description rules for Http and WebSockets protocols
 ---
 
 # Routing
