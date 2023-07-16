@@ -3,6 +3,7 @@
 .temp
 .vite_opt_cache
 .vscode
+package-lock.json
 
 dist
 cache

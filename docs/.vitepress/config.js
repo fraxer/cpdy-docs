@@ -31,8 +31,9 @@ export default defineConfig({
       {},
       `<img src="https://mc.yandex.ru/watch/94252971" style="position:absolute; left:-9999px;" alt="" />`
     ],
-    ['link', { rel: "icon", type: "image/png", href: "/favicon.png"}
-    ],
+    [
+      'link', { rel: "icon", type: "image/x-icon", href: "/favicon.ico"}
+    ]
   ],
   locales: {
     root: {
