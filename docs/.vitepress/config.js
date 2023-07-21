@@ -32,7 +32,7 @@ export default defineConfig({
       `<img src="https://mc.yandex.ru/watch/94252971" style="position:absolute; left:-9999px;" alt="" />`
     ],
     [
-      'link', { rel: "icon", type: "image/x-icon", href: "/favicon.ico"}
+      'link', { rel: "icon", type: "image/x-icon", href: "https://cpdy.io/favicon.ico"}
     ]
   ],
   locales: {
@@ -41,7 +41,7 @@ export default defineConfig({
       lang: 'ru',
       titleTemplate: 'Документация cpdy',
       themeConfig: {
-        logo: '/favicon.png',
+        logo: 'https://cpdy.io/favicon.png',
         siteTitle: 'Cpdy (альфа)',
         outlineTitle: 'На этой странице',
 
@@ -132,7 +132,7 @@ export default defineConfig({
       lang: 'en',
       titleTemplate: 'Documentation cpdy',
       themeConfig: {
-        logo: '/favicon.png',
+        logo: 'https://cpdy.io/favicon.png',
         siteTitle: 'Cpdy (alpha)',
 
         nav: [
