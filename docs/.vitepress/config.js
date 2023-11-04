@@ -74,6 +74,7 @@ export default defineConfig({
                   { text: 'Запросы', link: '/wsrequests' },
                   { text: 'Ответы', link: '/wsresponses' },
                   { text: 'Получение данных от клиента', link: '/wspayload' },
+                  { text: 'Широковещание', link: '/wsbroadcast' },
                 ]
               },
               { text: 'Базы данных', collapsed: true,
@@ -162,6 +163,7 @@ export default defineConfig({
                   { text: 'Requests', link: '/en/wsrequests' },
                   { text: 'Responses', link: '/en/wsresponses' },
                   { text: 'Receiving data from the client', link: '/en/wspayload' },
+                  { text: 'Broadcasting', link: '/en/wsbroadcast' },
                 ]
               },
               { text: 'Databases', collapsed: true,

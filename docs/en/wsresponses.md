@@ -32,6 +32,15 @@ void get(websocketsrequest_t* request, websocketsresponse_t* response) {
 }
 ```
 
+General format\
+The `data` method automatically detects the format of the incoming request and generates a response in a similar format.
+
+```C
+void get(websocketsrequest_t* request, websocketsresponse_t* response) {
+    response->data(response, "Text in binary format");
+}
+```
+
 ## Sending files
 
 Cpdy provides the `file` method for solving the problems of sending files using the WebSockets protocol.

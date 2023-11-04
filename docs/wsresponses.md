@@ -32,6 +32,15 @@ void get(websocketsrequest_t* request, websocketsresponse_t* response) {
 }
 ```
 
+Общий формат\
+Метод `data` автоматически определяет формат входящего запроса и формирует ответ в аналогичном формате.
+
+```C
+void get(websocketsrequest_t* request, websocketsresponse_t* response) {
+    response->data(response, "Text in binary format");
+}
+```
+
 ## Отправка файлов
 
 Cpdy предоставляет метод `file` для решения задач по отправке файлов по протоколу WebSockets.
